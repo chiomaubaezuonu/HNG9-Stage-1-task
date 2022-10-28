@@ -1,0 +1,10 @@
+.link-div #btn__zuri, .link-div #books {
+  width: 100%;
+  text-align: center;
+}
+.link-div button {
+  background-color: #F4F5F7;
+  color: #101828;
+  border: none;
+  width: 100%;
+}/*# sourceMappingURL=variables.css.map */

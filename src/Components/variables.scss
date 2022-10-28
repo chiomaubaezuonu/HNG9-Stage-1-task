@@ -1,0 +1,35 @@
+$bg: #f4f5f7;
+$color: #101828;
+$width: 100%;
+$border: none;
+$text: center;
+$padding: 1rem;
+$margin: 0.6rem;
+$footer-width: 80%;
+
+.link-div {
+  #btn__zuri,
+  #books,#twitter,#book__python,#pitch,#book__design {
+    width: $width;
+    text-align: $text;
+    margin: $margin;
+  }
+  button {
+    background-color: $bg;
+    color: $color;
+    border: $border;
+    width: $width;
+    padding: $padding;
+    border-radius: 0.4rem;
+  }
+  #slack-link{
+    margin-right: $margin;
+  }
+}
+.footer{
+  background-color: #FFFFFF;
+  padding: 1.2rem;
+  width: $footer-width;
+  margin: auto;
+  margin-top: 1rem;
+}

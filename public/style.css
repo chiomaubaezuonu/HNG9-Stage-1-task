@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    background-color: #FFFFFF;
+    width: 100%;
+    margin: auto;
+    padding: 1rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.profile {
+    width: 80%;
+    background-color: #FFFFFF;
+    margin: auto;
+    padding: 0.2rem;
+}
+
+.profile #share {
+    display: block;
+    margin-left: auto;
+    margin-right: 10rem;
+    width: 1.4rem;
+}
+
+.profile #mobile-share {
+    display: none;
+}
+
+#twitter {
+    text-align: center;
+}
+
+#profile__img {
+    margin: auto;
+    border-radius: 50%;
+    width: 7%;
+    display: flex;
+    justify-content: center;
+}
+
+.link-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    /* padding: 2rem; */
+    background-color: white;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+#slack {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .wrapper {
+        width: 100%;
+    }
+
+    .profile #mobile-share {
+        display: block;
+        margin-left: auto;
+        /* margin-right: 10rem; */
+        width: 1.4rem;
+    }
+
+    .profile #share {
+        display: none;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+    }
+}
+ @media (max-width: 900px){
+    .footer-links {
+        display: flex;
+        width: 40%;
+        justify-content: space-between;
+    }
+ }
