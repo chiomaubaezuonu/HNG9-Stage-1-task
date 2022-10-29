@@ -5,12 +5,12 @@ const Links = () => {
   return (
     <div className="link-div">
       <a href="https://twitter.com/ChiomaPresh1029" id="twitter">
-        <button>Twitter link</button>
+        <button>ChiomaPresh1029</button>
       </a>
       <a href="https://training.zuri.team/" id="btn__zuri">
         <button>Zuri Team</button>
       </a>
-      <a href="https://twitter.com/ChiomaPresh1029" id="books">
+      <a href="http://books.zuri.team" id="books">
         <button>Zuri Books</button>
       </a>
       <a

@@ -13,7 +13,7 @@ function Profile() {
         <img src="./images/mobile-share.png" id="mobile-share" alt="share" />
           <img src="./images/oma.jpg" id="profile__img" alt="profile-pic" />
           <h2 id="twitter">Chioma Precious</h2>
-          <h1 id="slack"> Chioma Ubaezuonu1</h1>
+          <h1 id="slack">ChiomaPrecious</h1>
         </div>
         <Links />
         <Footer />
