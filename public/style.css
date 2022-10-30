@@ -64,7 +64,7 @@
 @media (max-width: 600px) {
     .wrapper {
         width: 90%;
-        padding: 0;
+        margin: 0 auto;
     }
     .profile{
         width: 60%;
