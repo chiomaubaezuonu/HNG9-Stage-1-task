@@ -62,11 +62,12 @@
 
 @media (max-width: 600px) {
     .wrapper {
-        width: 90%;
+        width: 85%;
         margin: 0 auto;
     }
     .profile{
-        width: 80%;
+        width: 70%;
+        background-color: rebeccapurple;
     }
 
 
@@ -85,12 +86,13 @@
         padding-top: 0.3rem;
     }
 .link-div{
-    padding: 0.1rem;
     margin-top: 0.2rem;
+    width: 100%;
+    background-color: red;
 }
-    .links {
+    /* .links {
         padding: 0.2rem;
-    }
+    } */
 
     .footer-links {
         display: flex;
