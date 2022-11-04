@@ -59,7 +59,27 @@
 #slack {
     display: none;
 }
-
+.form-data{
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    width: 60%;
+    margin: 6rem auto;
+    background-color: rgb(255, 218, 192);
+    font-family: 'Inter', sans-serif;   
+}
+.form-title{
+    margin-bottom: 1.5rem;
+}
+.name-inputs{
+    display: flex;
+    padding-right: 1rem;
+    
+}
+.names{
+    padding: 0.5rem;
+    outline: none;
+}
 @media (max-width: 600px) {
    
     .wrapper {
