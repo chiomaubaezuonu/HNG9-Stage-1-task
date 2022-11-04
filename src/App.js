@@ -1,13 +1,16 @@
-// import React from "react";
 import Profile from "./Components/Profile.js";
-// import Footer from "./Components/Footer"
-
+import Contact from "./Components/Contact.js";
+import { BrowserRouter, Link, Route, Routes, Navigate } from "react-router-dom";
 
 function App() {
   return (
     <div>
-      <Profile />
-      {/* <Footer /> */}
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Profile />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
