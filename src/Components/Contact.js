@@ -2,15 +2,18 @@ import React from "react";
 import { Form } from "react-router-dom";
 
 const Contact = () => {
+  const name = "Chioma Precious";
   return (
     <div>
       <div className="form-data">
         <div className="form-title">
           <h1 className="contact">Contact me</h1>
-          <p>Hi there, contact me to ask me about anything you have in mind.</p>
+          <p id="contact-text">
+            Hi there, contact me to ask me about anything you have in mind.
+          </p>
         </div>
         <div className="name-inputs">
-          <div>
+          <div className=" name-div">
             <label>FirstName </label>
             <br />
             <input
@@ -20,7 +23,7 @@ const Contact = () => {
               placeholder="Enter your first name"
             />
           </div>
-          <div>
+          <div className="name-div">
             <label>LastName</label>
             <br />
             <input
@@ -31,23 +34,42 @@ const Contact = () => {
             />
           </div>
         </div>
+        <div>
+          <label>Email</label>
+          <br />
+          <input
+            type="email"
+            id="email"
+            placeholder="yourname@email.com"
+            required
+          />
+        </div>
 
-        <label>
-          Email
-          <input id="email" placeholder="yourname@gmail.com"></input>
-        </label>
         <textarea
           id="message"
           placeholder="Send me a message and I'll reply you as soon as possible..."
         ></textarea>
         <div>
-          <input type="checkbox" />
-          <label htmlFor="isFriendly">
+          <input type="checkbox" 
+           
+          />
+          <label  id="checkbox">
             Do you agree to providing your data to {name} who may contact you.
           </label>
           <br />
         </div>
-        <button id="btn__submit">Send message</button>
+        <button id="btn__submit" onClick={() => alert("yes")}>
+          Send message
+        </button>
+      </div>
+      <div className="contact-footer">
+        <img src="./images/Zuri-logo.png" className="contact-img" alt="logo" />
+        <img
+          src="./images/footer-text.png"
+          className="contact-img"
+          alt="text"
+        />
+        <img src="./images/I4G.png" className="contact-img" alt="I4G" />
       </div>
     </div>
   );
