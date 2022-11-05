@@ -37,9 +37,9 @@ const Links = () => {
       >
         <button>Design Books</button>
       </a>
-      <a id="contact" className="links" href="/contact">
+      <Link id="contact" className="links" to={"/contact"}>
         <button>Contact</button>
-      </a>
+      </Link>
 
       <div className="social-media">
         <a href="https://slack.com/get-started#/landing" id="slack-link">
