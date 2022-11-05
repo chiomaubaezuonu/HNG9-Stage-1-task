@@ -1,7 +1,7 @@
 import React from "react";
 
 import "../Components/variables.scss";
-import Contact from "../Components/Contact";
+// import Contact from "../Components/Contact";
 import { Link } from "react-router-dom";
 
 const Links = () => {
