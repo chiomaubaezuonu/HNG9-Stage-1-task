@@ -1,6 +1,6 @@
 import Profile from "./Components/Profile.js";
 import Contact from "./Components/Contact.js";
-import { BrowserRouter, Link, Route, Routes, Navigate } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
