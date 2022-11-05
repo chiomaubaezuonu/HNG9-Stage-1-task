@@ -57,7 +57,7 @@ const Contact = () => {
           </label>
           <br />
         </div>
-        <button id="btn__submit" onClick={() => alert("yes")}>
+        <button id="btn__submit" type="submit">
           Send message
         </button>
       </div>
