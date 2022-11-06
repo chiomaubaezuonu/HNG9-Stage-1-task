@@ -201,17 +201,21 @@ label{
         width: 100%;
         font-size: 0.1rem;
     }
-    .name-div{
-        padding: 1rem;
+    .names{
+        width: 100%;
+        padding: 0.6rem;
+        margin: 1rem 0;
     }
     #message, #email{
         padding: 1.5rem;
     }
     #btn__submit{
-        padding: 1rem;
+        padding: 0.5rem;
+        font-size: 1rem;
     }
     .name-inputs{
         display: flex;
+        padding: 1rem 0;    
         flex-direction: column;
     }
     .contact-footer{
@@ -265,16 +269,15 @@ label{
     .form-data{
         padding: 2rem;
         width: 90%;
-        /* height: 100%; */
         margin: 2rem auto;
         font-family: 'Inter', sans-serif;
     }    
     .contact{
-        font-size: 3rem;
+        font-size: 2rem;
     }
     .contact-footer{
         width: 80%;
-        padding: 2rem;
+        padding: 1.2rem;
     }
     .contact-img{
         width: 30%;
