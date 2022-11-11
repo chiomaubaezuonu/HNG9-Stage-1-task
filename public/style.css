@@ -1,286 +1,50 @@
-* {
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-
-.wrapper {
-    background-color: #FFFFFF;
+body{
+    font-family: 'Red Rose', cursive;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(241, 196, 196);
+    padding: 0.5rem 3rem;
+}
+#nav-logo{
+    width: 5%;
+}
+#nav-wallet{
+    width: 10%;
+}
+.nav-text{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+/* span{
+    margin-right: 2rem;
+} */
+.left-text span{
+    color: #A02279;
+    font-weight: 700;
+}
+.metaverse{
+    padding: 1.5rem 5rem;
     width: 100%;
-    margin: auto;
-    padding: 1rem;
-    font-family: 'Inter', sans-serif;
-}
-
-.profile {
-    width: 80%;
-    background-color: #FFFFFF;
-    margin: auto;
-    padding: 0.2rem;
-}
-
-.profile #share {
-    display: block;
-    margin-left: auto;
-    margin-right: 10rem;
-    width: 1.4rem;
-}
-
-.profile #mobile-share {
-    display: none;
-}
-
-#twitter {
-    text-align: center;
-}
-
-#profile__img {
-    margin: auto;
-    border-radius: 50%;
-    width: 7%;
     display: flex;
-    justify-content: center;
 }
-
-.link-div {
+.left-text{
+    width: 50%;
+}
+.right-images{
+    width: 50%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 80%;
+}
+.metalinks1{
+    width: 100%;
+    height: auto;
     margin: 0 auto;
-    background-color: white;
-}
-
-.footer-links {
-    display: flex;
-    justify-content: space-between;
-}
-
-#slack {
-    display: none;
-}
-
-.form-data {
-    display: flex;
-    flex-direction: column;
-    padding: 2rem;
-    width: 60%;
-    margin: 0 auto;
-    font-family: 'Inter', sans-serif;
-}
-
-.form-title {
-    margin-bottom: 1.5rem;
-}
-
-#contact-text {
-    color: #475467;
-    font-weight: 400;
-    margin: 1rem 0;
-}
-label{
-    color: #344054;
-    font-size: 0.875rem;
-}
-
-.name-inputs {
-    display: flex;
-    margin-right: 1rem;
-    width: 100%;
-    margin-bottom: 1rem;
-
-}
-
-.name-div {
-    width: 100%;
-
-}
-
-.names {
-    padding: 0.6rem;
-    width: 95%;
-    border-radius: 0.3rem;
-    border: 0.1rem solid #D0D5DD;
-
-}
-
-#email {
-    border: 0.1rem solid #D0D5DD;
-    padding: 0.5rem;
-    width: 100%;
-    border-radius: 0.3rem;
-
-}
-
-#message {
-    border: 0.1rem solid #D0D5DD;
-    padding: 2rem;
-    margin: 1rem 0;
-    width: 100%;
-    border-radius: 0.4rem;
-}
-#checkbox{
-    padding: 0.5rem;
-}
-
-#btn__submit {
-    border: 0.1rem solid #D0D5DD;
-    padding: 0.5rem;
-    width: 100%;
-    background-color: #1570EF;
-    color: #FFFFFF;
-    margin: 1rem 0;
-    border-radius: 0.3rem;
-    border: none;
-
-}
-
-::placeholder {
-    color: #667085;
-}
-.contact-footer{
-    width: 60%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    padding: 1.5rem 2rem;
-
-}
-.contact-img{
-    width: 17%;
-}
-
-@media (max-width: 600px) {
-    .wrapper {
-        width: 100%;
-        margin: 0 auto;
-        padding: 3rem;
-    }
-
-    .profile {
-        width: 100%;
-    }
-
-
-    .profile #mobile-share {
-        display: block;
-        margin-left: auto;
-        width: 1.4rem;
-    }
-
-    .profile #share {
-        display: none;
-    }
-
-    #mobile-share {
-        padding-bottom: 3rem;
-        padding-top: 0.3rem;
-    }
-
-    .link-div {
-        margin-top: 0.2rem;
-        width: 100%;
-    }
-
-   
-
-    .footer-links {
-        display: flex;
-        flex-direction: column;
-        width: 50%;
-    }
-    .form-data {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        margin: 0 auto;
-        font-family: 'Inter', sans-serif;
-    }
-    .contact {
-        padding: 0.5rem;
-        width: 100%;
-        font-size: 0.1rem;
-    }
-    .names{
-        width: 100%;
-        padding: 0.6rem;
-        margin: 1rem 0;
-    }
-    #message, #email{
-        padding: 1.5rem;
-    }
-    #btn__submit{
-        padding: 0.5rem;
-        font-size: 1rem;
-    }
-    .name-inputs{
-        display: flex;
-        padding: 1rem 0;    
-        flex-direction: column;
-    }
-    .contact-footer{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        padding: 0.5rem;
-    
-    }
-    .contact-img{
-        width: 100%;
-        padding: 0.4rem;
-    }
-}
-
-@media (max-width: 900px) {
-    .wrapper {
-        padding: 1rem;
-    }
-
-    .profile {
-        width: 100%;
-        padding: 2rem;
-    }
-
-    #profile__img {
-        width: 30%;
-        padding: 1rem;
-    }
-
-    .links {
-        padding: 0.6rem;
-    }
-
-    button {
-        font-size: 1.7rem;
-        padding: 1rem;
-    }
-
-    #slack-link {
-        padding-right: 1rem;
-    }
-
-    .footer-links {
-        display: flex;
-        width: 80%;
-        margin-right: 0.4rem;
-        justify-content: space-between;
-    }
-    .form-data{
-        padding: 2rem;
-        width: 90%;
-        margin: 2rem auto;
-        font-family: 'Inter', sans-serif;
-    }    
-    .contact{
-        font-size: 2rem;
-    }
-    .contact-footer{
-        width: 80%;
-        padding: 1.2rem;
-    }
-    .contact-img{
-        width: 30%;
-    }
-    
+    padding: 0 5rem;
 }

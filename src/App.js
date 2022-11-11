@@ -1,18 +1,15 @@
-import Profile from "./Components/Profile.js";
-import Contact from "./Components/Contact.js";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import React from 'react'
+import Navbar from './Components/Navbar'
+import MetaPlace from './Components/Airbnb'
+import Airbnb from './Components/Airbnb'
 
-function App() {
+const App = () => {
   return (
     <div>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Profile />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </BrowserRouter>
+      <Navbar />
+      <Airbnb />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
