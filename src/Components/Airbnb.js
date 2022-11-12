@@ -29,7 +29,7 @@ const Airbnb = () => {
       </div>
     </div>
     <img src="./images/meta-links.png" className="metalinks1" alt="links"/>
-    <h1>Inspiration for your next adventure</h1>
+    <h1 id="inspiration-title">Inspiration for your next adventure</h1>
     </div>
     
   );

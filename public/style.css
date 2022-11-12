@@ -48,3 +48,8 @@ nav{
     margin: 0 auto;
     padding: 0 5rem;
 }
+#inspiration-title{
+    text-align: center;
+    font-weight: 700;
+    margin-top: 1rem;
+}
